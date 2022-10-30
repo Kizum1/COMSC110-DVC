@@ -17,7 +17,7 @@ string capitals[CITY] = {
 int population[POPU] = {
   3544000,
   934243,
-  37274000,
+  37273000,
   9975709,
   21333332
 };
