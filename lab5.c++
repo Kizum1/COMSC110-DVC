@@ -28,7 +28,7 @@ int main() {
     //Read the strings from the file and set it equal to tmp
     while (getline(inputFile, tmp)) {
       //Get string length of each line 
-      int thisLength = tmp.size();\
+      int thisLength = tmp.size();
       //Increment while this loop is true to find out how many lines there are
       nLines++;
       //If statement to find shortest word
