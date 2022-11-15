@@ -42,7 +42,7 @@ int main() {
 
     //Check arguement, if thisVal is greater than howManyTimes then commit the amount of times it appears to 
     //howManyTimes and set commonNumber equal to thisVal.
-    if (counters[thisVal] > howManyTimes) {
+    if (counters[thisVal] >= howManyTimes) {
       howManyTimes = counters[thisVal];
       commonNumber = thisVal;
     }
